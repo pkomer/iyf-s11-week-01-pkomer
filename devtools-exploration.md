@@ -15,7 +15,7 @@
 - Example domain
 3. Number of Headings
 - one
-## **Web Site 2:** {Mozella}(https://developermozzella.org)
+## **Web Site 2:** {Mozilla}(https://developermozzilla.org)
 1. Navigation menu and tag warped in
 - <nav> 
 2. How the search bar is structured
