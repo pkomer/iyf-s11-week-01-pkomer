@@ -11,7 +11,7 @@
 - <p>
 - <a>
 - <body>
-2. Page Title**
+2. Page Title
 - Example domain
 3. Number of Headings
 - one
@@ -38,8 +38,7 @@
 - <label>
 - <inputs>
 - </form>
-
-- Inputs
+**Inputs**
 1. input type-"text"name-"fname">
 2. input type-"text"name-"lname">
 3. <input type-"submit">
