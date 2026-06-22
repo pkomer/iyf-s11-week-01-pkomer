@@ -1,4 +1,4 @@
-# **Website 1:** {example.com}(https://example.com)
+# **Website 1:** [example.com](https://example.com)
 1.Types of HTML Codes tags used on the page**
 - <html>
 - <head>
@@ -15,7 +15,7 @@
 - Example domain
 3. Number of Headings
 - one
-## **Web Site 2:** {Mozilla}(https://developermozzilla.org)
+## **Web Site 2:** [Mozilla](https://developer.mozzilla.org)
 1. Navigation menu and tag warped in
 - <nav> 
 2. How the search bar is structured
@@ -23,7 +23,7 @@
 3. Hover over links (check style)
 - The cursor turns into a hand
 - links get underlined
-## **Web 3: Any website of your choice:** {w3schools}(https://www.w3schools.com)
+## **Web 3: Any website of your choice:** [w3Schools](https://www.3Schools.com)
 1. HTML elements
 - <div>
 - <link>
@@ -32,7 +32,7 @@
 - <script>
 2. Form elements and its inputs
 - <form>
-- lable>
+- <label>
 - <input>
 - <br>
 - <label>
@@ -45,3 +45,4 @@
 
 
 
+devtools-exploration.md
