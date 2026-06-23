@@ -1,7 +1,7 @@
 # **Week 01: *Accessibility Report**#
 ## Author
 - **Name:** Kome Purity
-- **GitHub:** [@MaisoriKitayama](https://github.com/pkomer)
+- **GitHub:** [@pkomer](https://github.com/pkomer)
 - **Date:** 06/23/2026
 
 ##**Issues Found**##
