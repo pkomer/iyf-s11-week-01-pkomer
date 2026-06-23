@@ -6,28 +6,29 @@
 - **Date:** 06/23/2026
 
 ###**Website 1:** [example.com](https://example.com)
-1.Types of HTML Codes tags used on the page**
+1.Types of HTML Codes tages used on the page
 - <html>
 - <head>
 - <title>
 - <link>
 - <meta>
-- <style>
-- <div>
+-<style>
+-<div>
 - <h1>
 - <p>
-- <a>
+-<a>
 - <body>
+</html>
 2. Page Title
 - Example domain
 3. Number of Headings
-- one
+- One
 
 ## **Web Site 2:** [Mozilla](https://developer.mozzilla.org)
-1. Navigation menu and tag warped in
-- <nav> 
+1. Navigation menu and tag wraped in
+- <na> 
 2. How the search bar is structured
-- <mdn-search-modal id='search'> #shadow-root (open)
+<mdn-search-modal id='search'> #shadow-root (open)
 3. Hover over links (check style)
 - The cursor turns into a hand
 - links get underlined
