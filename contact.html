@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form>
+        <fieldset>
+        <legend> Personal Information</legend>
+
+        <label for="Fullname"> "Full Name":</label><br>
+        <input type="text" id="Fullname" placeholder="Enter your full name" required>
+
+        <br><br>
+
+        <label for="email"> email:</label><br>
+        <input type="email" id="email" placeholder="example@email.com" required>
+
+        <br><br>
+
+        <label for="tel"> Phone:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your Phone number" required>
+
+        br><br>
+
+        </fieldset>
+
+        <br>
+
+        <!--Contact Details-->  
+        <fieldset>
+            <legend>Contact Details</legend>
+
+        <label for="subject">Subject:</label><br>
+        <section> id="subject" name="subject" required>
+          <option value="" disabled selected>--Choose a subject--</option>
+          <option value="General Inquiry">General Inquiry</option>
+          <option value="Opening Hours">Opening Hours</option>
+          <option value="Customer service">Customer service</option>
+        </select>
+        <br><br>
+
+        <label for="Message"> Message:</label><br>
+        <textarea id="nessage" name="message"
+            rows="5"
+            cols="40"
+            minlength="50"
+            placeholder="Enter at least 5o characters" required >
+        </textarea>
+            <b></b>
+
+            <!--Preference-->
+            
+            <legend>Preference</legend> 
+
+            <label>
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Subscribe to Newsletter</label>
+               <br>br>
+               
+              </fieldset>
+
+              <br>
+
+              <button type="submit">Submit</button>
+
+              </form>
+            
+
+        
+        
+            
+    
+</body>
+</html>
