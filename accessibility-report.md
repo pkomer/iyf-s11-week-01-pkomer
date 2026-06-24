@@ -1,8 +1,8 @@
 # **Week 01: *Accessibility Report**#
 ## Author
-**Name:** Kome Purity
-**GitHub:** [@MaisoriKitayama](https://github.com/pkomer)
-**Date:** 06/23/2026
+- **Name:** Kome Purity
+- **GitHub:** [@pkomer](https://github.com/pkomer)
+- **Date:** 06/23/2026
 
 ##**Issues Found**##
 1. The document lacked Main tag
