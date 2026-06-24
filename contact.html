@@ -4,26 +4,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
 </head>
+
 <body>
+
+    <!--Navigation-->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html" class="active">Contact</a>
+
+</nav>
     <h1>Contact Us</h1>
     <form>
         <fieldset>
         <legend> Personal Information</legend>
 
-        <label for="Fullname"> "Full Name":</label><br>
-        <input type="text" id="Fullname" placeholder="Enter your full name" required>
+        <label for="fullname"> "Full Name":</label><br>
+        <input type="text" id="fullname" placeholder="Enter your full name" required>
 
         <br><br>
 
-        <label for="email"> email:</label><br>
+        <label for="email"> Email:</label><br>
         <input type="email" id="email" placeholder="example@email.com" required>
 
         <br><br>
 
-        <label for="tel"> Phone:</label><br>
-        <input type="tel" id="phone" name="phone" placeholder="Enter your Phone number" required>
+        <label for="phone"> Phone:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
 
-        br><br>
+        <br><br>
 
         </fieldset>
 
@@ -34,7 +43,7 @@
             <legend>Contact Details</legend>
 
         <label for="subject">Subject:</label><br>
-        <section> id="subject" name="subject" required>
+        <select> id="subject" name="subject" required>
           <option value="" disabled selected>--Choose a subject--</option>
           <option value="General Inquiry">General Inquiry</option>
           <option value="Opening Hours">Opening Hours</option>
@@ -43,13 +52,17 @@
         <br><br>
 
         <label for="Message"> Message:</label><br>
-        <textarea id="nessage" name="message"
+        <textarea id="message" name="message"
             rows="5"
             cols="40"
             minlength="50"
-            placeholder="Enter at least 5o characters" required >
+            placeholder="Enter at least 50 characters" required >
+            
         </textarea>
             <b></b>
+    </fieldset>
+
+    <fieldset>
 
             <!--Preference-->
             
@@ -58,8 +71,34 @@
             <label>
         <input type="checkbox" id="newsletter" name="newsletter">
         <label for="newsletter">Subscribe to Newsletter</label>
-               <br>br>
-               
+               <br><br>
+            
+            <!--Social Media Links-->
+            <section>
+                <h2>Social Media Links</h2>
+            <ul>
+               <li>
+                 <label for="linkedin">Linkedin Username:</label><b></b>
+                 <input type="url" id="linkedin" name="linkedin"> placeholder="https://linkedin.com/in/your name">
+                 <b></b>
+
+                 <label for="twitter">Twitter/x:</label><b></b>
+                 <input type="url" id="twitter" name="twitter"> placeholder="https://x.com/your name">
+                  <br><br>
+
+                  label for="github">Github URL:</label><b></b>
+                 <input type="url" id="github" name="github"> placeholder="https://github.com/your name">
+                 
+
+            <!--LocationTime Zone-->
+
+            <section>
+                
+                <h3>Location/Time Zone</h3>
+                <p><strong>Location:</strong> Nairobi, Kenya</p>
+                <strong>Time Zone:</strong> 
+                East Africa Time (EAT, UTC +3)
+            </section>
               </fieldset>
 
               <br>
@@ -69,9 +108,6 @@
               </form>
             
 
-        
-        
-            
-    
+</main>    
 </body>
 </html>
