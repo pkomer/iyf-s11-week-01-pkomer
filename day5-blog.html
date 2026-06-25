@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Layout</title>
+</head>
+<body>
+     <main>
+        <article>
+    <header>
+        <h1>Semantic HTML</h1>
+        <p>
+        by Komer Purity
+        on <time datetime="2026-06-24">June 24, 2026</time>
+        </p>
+    </header>
+ 
+    
+        <figure>
+            <img src="https://placehold.co/300x200" alt=" Computer coding ">
+            <figcaption>How to code</figcaption>
+    
+        </figure>
+
+          <h2>Why Semantic HTML and Accessibility Matter</h2>
+          <p>
+            
+            Semantic HTML means using HTML tags that clearly describe their purpose. Instead of using many &lt;div&gt; tags, we can use tags like &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, and &lt;footer&gt;. These tags help browsers, search engines, and screen readers understand the structure of a webpage
+          </p>
+
+          <h2>Before: Non-Semantic HTML</h2>
+          <p>
+            Before semantic HTML was introduced, web developers commonly used generic elements such as &lt;div&gt; and &lt;span&gt; to build web pages. While these elements helped structure content, they did not describe the purpose of the content they contained. As a result, it was more difficult for search engines, screen readers, and other tools to understand the layout and meaning of a webpage. Developers often relied on class names and IDs to indicate the role of different sections.
+
+          </p>
+            <h2>After: Semantic HTML</h2>
+            <p>
+             After the introduction of semantic HTML, developers gained access to meaningful elements such as &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, and &lt;footer&gt;. These elements clearly describe the purpose of the content they contain, making web pages easier to read, maintain, and understand. Semantic HTML improves accessibility for users with assistive technologies and helps search engines better interpret and index website content, leading to a more organized and user-friendly web experience.
+
+            </p>
+
+            <h2>Missing Image Descriptions</h2>
+            <p>
+                Some images on the webpage were missing alternative text (alt attributes). Alternative text is important because it provides a description of an image for users who cannot see it, including those who rely on screen readers. Without alt text, screen readers may be unable to communicate the purpose or content of an image, reducing the accessibility of the website. Adding clear and descriptive alt text helps ensure that all users can understand the information conveyed by images and improves the overall user experience and accessibility of the webpage
+            </p>
+
+            <h2>Poor Heading Structure</h2>
+
+            <p>
+               There were also some issues with headings being out of order. This may be confusing for people who use screen readers.
+               I fixed this by using headings in the correct order, such as &lt;h1&gt;, &lt;h2&gt;, and &lt;h3&gt;.
+
+            </p>
+
+            <h2> Keyboard Navigation</h2>
+            <p>
+                Some elements on the website were not accessible through the keyboard alone. I ensured that all the links and buttons were accessible by using the Tab key.
+                All these improvements increased the accessibility of my website, making it more user-friendly. Semantic HTML and accessibility are important because they allow us to build websites that are understandable, easy to maintain, and accessible to everyone. In all future projects, accessibility will be an integral part of my web development journey
+
+ 
+            </p>
+
+            <!--Related Posts-->
+            <aside>
+               <h2>Related Posts</h2>
+               <ul>
+                  <li><a href="https://www.codecademy.com/resources/blog/semantic-html" target="_blank"> 
+                         rel="noopener noreferrer"
+                         What is Semantic HTML & Why Is It Important for Accessibility?
+
+                  </a>
+                  </li>
+               
+                  <li> <a href="https://dev.to/outdated-dev/semantic-html-why-it-matters-for-accessibility-and-automated-testing-lg8" target="_blank"> 
+                          rel="noopener noreferrer"
+                          Semantic HTML: Why It Matters for Accessibility and Automated Testing?
+
+                  </a>
+                </li>
+                  
+               
+                  <li> <a href="https://www.telerik.com/blogs/why-semantic-html-matters-introductory-guide-new-developers" target="_blank"> 
+                        rel="noopener noreferrer"
+                        Why Semantic HTML Matters: An Introductory Guide for New Developers?
+
+                  </a>
+                </li>
+              </ul>
+
+            </aside>
+
+            <footer>
+                <p>Written by Komer Purity</p>
+
+            </footer>
+    </article>
+  </main>
+  
+</body>
+</html>
